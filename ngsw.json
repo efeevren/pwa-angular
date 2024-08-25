@@ -1,0 +1,79 @@
+{
+  "configVersion": 1,
+  "timestamp": 1724580981105,
+  "index": "/pwa-angular/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwa-angular/favicon.ico",
+        "/pwa-angular/index.html",
+        "/pwa-angular/main-6GDRIDW7.js",
+        "/pwa-angular/manifest.webmanifest",
+        "/pwa-angular/polyfills-SCHOHYNV.js",
+        "/pwa-angular/styles-FIOTN26F.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/pwa-angular/icons/icon-128x128.png",
+        "/pwa-angular/icons/icon-144x144.png",
+        "/pwa-angular/icons/icon-152x152.png",
+        "/pwa-angular/icons/icon-192x192.png",
+        "/pwa-angular/icons/icon-384x384.png",
+        "/pwa-angular/icons/icon-512x512.png",
+        "/pwa-angular/icons/icon-72x72.png",
+        "/pwa-angular/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/pwa-angular/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/pwa-angular/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/pwa-angular/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/pwa-angular/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/pwa-angular/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/pwa-angular/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/pwa-angular/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/pwa-angular/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/pwa-angular/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/pwa-angular/index.html": "82391b15e42bb6c1b63b5a32d7203c54e3379190",
+    "/pwa-angular/main-6GDRIDW7.js": "c5c7f25b2d763c5a2f20c40420359c83e5492e40",
+    "/pwa-angular/manifest.webmanifest": "bea2dc387c2da1208a95d64fdf7e5cae16a98443",
+    "/pwa-angular/polyfills-SCHOHYNV.js": "d45c76c5960bab3ace7fd6d211b9579456241f8a",
+    "/pwa-angular/styles-FIOTN26F.css": "e064524ced964f453863586dc4cad77678f15811"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
